@@ -8,7 +8,6 @@
 OTC15203/OTC15203 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-
 // Fisk Dimension: Ignored File Patterns (C++ Context)
 // This C++ code simulates pattern recognition for ignored files in a multi-stack project.
 // Note: For actual ignore behavior, use a .gitignore file with Git.
@@ -58,6 +57,7 @@ bool isIgnored(const std::string& filename) {
         std::regex("Dockerfile"), std::regex("\\.dockerignore"), std::regex(".*\\.tfstate.*"), std::regex("\\.terraform/.*"),
         std::regex(".*\\.(pem|key|crt|csr)"), std::regex("secrets\\.json"),
 
+
         // System & Metadata
         std::regex(".*\\.(iml|orig|rej)"),
 
@@ -84,7 +84,6 @@ int main() {
     }
     return 0;
 }
-
 // Example Usage:
 // Compile: g++ -std=c++11 -o ignore_patterns ignore_patterns.cpp
 // Run: ./ignore_patterns
