@@ -85,6 +85,7 @@ int main() {
     return 0;
 }
 
+// Consolidated content from duplicate file
 // Example Usage:
 // Compile: g++ -std=c++11 -o ignore_patterns ignore_patterns.cpp
 // Run: ./ignore_patterns
